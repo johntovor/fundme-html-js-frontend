@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fund Me App</title>
+  </head>
+  <body>
+    <h1>Web3 Development Journey</h1>
+    <button
+      id="connectButton"
+      style="
+        background-color: rgb(13, 13, 204);
+        color: #fff;
+        padding: 10px 25px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        margin-right: 8px;
+      "
+    >
+      Connect Wallet
+    </button>
+    <button
+      id="balanceButton"
+      style="
+        background-color: rgb(215, 143, 10);
+        color: #fff;
+        padding: 10px 25px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+      "
+    >
+      Get Balance
+    </button>
+    <h3 style="margin-top: 10px">My Balance: <span id="myBalance"></span></h3>
+
+    <!-- form -->
+    <div style="margin-top: 15px; margin-bottom: 10px">
+      <label for="fund">ETH Amount</label>
+      <input id="ethAmount" placeholder="0.1" />
+    </div>
+    <button
+      id="fundButton"
+      style="
+        background-color: rgb(1, 159, 56);
+        color: #fff;
+        padding: 10px 25px;
+        border: 1px solid transparent;
+        margin-right: 8px;
+      "
+    >
+      Fund
+    </button>
+    <button
+      id="withdrawButton"
+      style="
+        background-color: rgb(179, 46, 5);
+        color: #fff;
+        padding: 10px 25px;
+        border: 1px solid transparent;
+        margin-right: 8px;
+      "
+    >
+      Withdraw
+    </button>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
